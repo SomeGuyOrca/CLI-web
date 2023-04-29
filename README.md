@@ -1,4 +1,4 @@
-# Website-Opener-Batch
+# CLI-web
 Launch a website from your windows-terminal with this script!
 
 
