@@ -6,9 +6,19 @@ set /p web=Enter where you want to go search engine(bing) or a website itself (1
 if %web% == 1 goto bing
 if %web% == 2 goto website
 :bing
-set /p enter=Enter what you want to search for: 
+set /p enter=Enter the search engine duckduckgo, google, bing (1,2,3): 
+if %enter% == 1 goto ddg
+if %enter% == 2 goto google
+if %enter% == 3 goto bing
 
-start https://www.bing.com/search?q=%Enter%
+:ddg
+start https://duckduckgo.com/?q=%enter%
+
+:google
+start https://www.google.com/search?q=%enter%
+
+:bing
+start https://www.bing.com/search?q=%enter%
 
 :website
 set /p website=Enter the name of the website (Eg. youtube):
