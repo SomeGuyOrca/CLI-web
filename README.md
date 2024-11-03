@@ -1,3 +1,4 @@
+**THIS DOES NOT WORK ( I THINK )**
 # CLI-web
 Launch a website from your windows-terminal with this script!
 
@@ -9,7 +10,6 @@ All you need to enter is the website name (Eg. Youtube) and the domain (Eg. net 
 
 ## NOTE
 **NOTE THIS APP DOES NOT ALLOW YOU TO HOST A WEBSITE**
-
-
+**THIS DOES NOT WORK ANYMORE** 
 **DO NOT USE THIS FOR ILLEGAL PURPOSES (not that you can).**
 
